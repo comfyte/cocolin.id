@@ -3,8 +3,8 @@
   "private": true,
   "version": "1.0.0",
   "scripts": {
-    "build": "@11ty/eleventy",
-    "serve": "@11ty/eleventy --serve",
+    "build": "eleventy",
+    "serve": "eleventy --serve",
     "start": "npm run serve",
     "watch": "npm run serve"
   },
