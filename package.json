@@ -1,21 +1,17 @@
 {
   "name": "cocolin.id",
+  "private": true,
   "version": "1.0.0",
-  "description": "Website store listing (e-commerce) untuk produk Cocolin",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "@11ty/eleventy",
+    "serve": "@11ty/eleventy --serve",
+    "start": "npm run serve",
+    "watch": "npm run serve"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/comfyte/cocolin.id.git"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/comfyte/cocolin.id/issues"
-  },
-  "homepage": "https://github.com/comfyte/cocolin.id#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1"
   }
